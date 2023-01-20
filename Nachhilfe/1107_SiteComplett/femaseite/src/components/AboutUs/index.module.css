@@ -1,0 +1,32 @@
+.aboutUs_selection {
+    background-color: #FFFFFF;
+}
+
+.aboutUs_block {
+    padding: 144px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+
+.about_us_article {
+    width: 445px;
+}
+
+.text {
+    margin: 60px 0 0 0;
+    font-size: 18px;
+    color: #000000;
+}
+
+.title_modify {
+    color: #005FA3;
+}
+
+.services_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+

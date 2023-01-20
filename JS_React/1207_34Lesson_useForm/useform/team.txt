@@ -1,0 +1,21 @@
+07.12.22
+*Neue Project --> // https://www.figma.com/file/moIMHS67JQUrvH6WnvvYrB/forms_templates?node-id=1%3A69&t=h8RMvPbhTRSMk0Y8-0
+
+*бибилиотекa react-hook-form --> https://react-hook-form.com/get-started/ --> 
+Installing React Hook Form only takes a single command and you're ready to roll --> 
+Установить бибилиотеку B Terminal --> npm install react-hook-form -->
+
+* https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a
+  const passwordRegister = register('password', {
+    required: '*The field "email" is required',
+    pattern: {
+      value: /"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"/,
+      message: '*Minimum eight characters, at least one letter and one number, Минимум восемь символов, по крайней мере, одна буква и одна цифра'
+    }
+  });
+
+*Handle errors - выдает ошибку при не заполнение поля '*The field "email" is required'
+https://react-hook-form.com/get-started/#Handleerrors
+
+      {errors.email && <p>{errors.email?.message}</p>}
+      {errors.password && <p>{errors.password?.message}</p>}

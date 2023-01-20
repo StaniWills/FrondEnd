@@ -1,0 +1,33 @@
+*{               /* всегда обнуляем */  /*  */
+    margin: 0;  
+    padding: 0;
+}
+
+.grid_container {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    justify-items: start;  /* горизонтальн выравнивание */
+    align-items: center; /* вертикальн выравнивание */
+}
+
+.grid_item {
+    border: 1px dashed black; /* dashed - точки */
+    padding: 20px;
+    text-align: center;
+}
+
+.item_1 {
+    justify-self: stretch;
+}
+
+.item_5 {
+    justify-self: center;
+}
+
+/*
+
+Что осталось:
+1. justify-content / align-content - выравнивание сетки
+2. grid-column / grid-row - расположение элементов внутри сетки
+
+*/

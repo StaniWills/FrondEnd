@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    outline: 2px solid red;
+    outline-offset: -1px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 0; 
+    border-radius: 30px;
+}
+.intro {
+    background-color: #2980b9;
+}
+.hobby{
+    background-color: #8e44ad;
+}
+.work {
+    background-color: #e74c3c;
+}
+#produkt {
+    width: 100px;
+}

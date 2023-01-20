@@ -1,0 +1,21 @@
+*{               /* всегда обнуляем */
+    margin: 0;
+    padding: 0;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 
+    /* grid-template-rows: ; */
+}
+
+.grid_item {
+    border: 1px dashed black; /* dashed - точки */
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/*  */
+/* repeat(3, 1fr) repeat(2, 2fr) repeat(1, 3fr) = 1fr 1fr 1fr 2fr 2fr 3fr */

@@ -1,0 +1,25 @@
+p{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#main .about{
+    background-color: #3498db;
+}
+
+#main .lesson{
+    background-color: #9b59b6;
+}
+
+#films ol{
+    list-style: circle;
+}
+
+#films li{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#films ul{
+    list-style: none;
+}

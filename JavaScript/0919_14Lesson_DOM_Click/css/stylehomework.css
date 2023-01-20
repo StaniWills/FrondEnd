@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  asdb
+  #root {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .progress-container {
+    border: 1px solid black;
+    height: 20px;
+    position: relative;   
+  }
+
+  .progress-line {
+    /* background-color: lightskyblue; */
+    height: 100%;
+    position: absolute;   
+   
+  }
+
+  .progress-value {
+    position: absolute;   
+    text-align: center;
+    width: 100%;
+  }
+  

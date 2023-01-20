@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px; /* отступ по бокам */
+    height: 60px;
+    background-color: blueviolet;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{ 
+    padding: 20px;
+    /* cursor: pointer;  палчик  */
+    text-decoration: none;
+    color: aqua;
+}
+
+nav .logo img{
+    width: 120px;
+}

@@ -1,0 +1,48 @@
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.one {
+   left: 50%;
+   top: 50%px;
+}
+
+.two {
+    right: 50%;
+    top: 50%;
+}
+
+.tree {
+    right: 50%;
+    top: 50%;
+}
+
+.four {
+    right:50%;
+    top: 50%;
+}
+
+.five {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-100%,100%);
+}
+
+._6 {
+    left: 100px;
+    bottom: 100px;
+}
+
+._7 {
+    right: 50%;
+    bottom: 50%;
+}
+
+._8 {
+    left: 50%;
+    bottom: 50%;
+    transform: translate(100%,100%);
+}

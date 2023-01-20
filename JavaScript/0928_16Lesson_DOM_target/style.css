@@ -1,0 +1,56 @@
+.black_mode{
+  background-color: rgb(12, 12, 12);
+}
+
+.img_slider{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.img_slider2{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.increaseButton{
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+ 
+  
+}
+
+/* //symbols_index++ % symbols.length
+// 0 % 4 = 0
+// 1 % 4 = 1
+// 2 % 4 = 2
+// 3 % 4 = 3
+// 4 % 4 = 0
+// 5 % 4 = 1
+// 6 % 4 = 2
+// 7 % 4 = 3
+// 8 % 4 = 0
+
+
+
+63 яйца
+6 пачек по 10 яиц
+3 яйца без упаковки
+
+63 % 10 = 3
+
+
+2 яйца
+0 пачек по 4
+2 без упаковки
+
+2 % 4 = 2
+
+
+3 яйца
+0 пачек по 4
+3 без упаковки
+
+3 % 4 = 3 */

@@ -8,7 +8,6 @@ export const load_products = category => {
       const payload = json.map(el => ({
         ...el,
         hide: false
-        
       }))
       dispatch(loadProducts(payload))
     })

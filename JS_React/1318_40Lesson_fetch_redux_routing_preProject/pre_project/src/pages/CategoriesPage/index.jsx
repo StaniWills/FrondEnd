@@ -24,6 +24,7 @@ export default function CategoriesPage() {
         {
           categories.map((el, index) => <CategoryCard key={index} category={el} />)
         }
+        
       </div>
     </div>
   )

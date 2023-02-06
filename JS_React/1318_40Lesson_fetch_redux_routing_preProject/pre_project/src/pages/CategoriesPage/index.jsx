@@ -4,6 +4,8 @@ import { useDispatch, useSelector } from 'react-redux'
 import CategoryCard from '../../components/CategoryCard';
 import s from './index.module.css'
 
+import { back_test } from '../../requests/back_test';
+
 export default function CategoriesPage() {
 
   const dispatch = useDispatch();
@@ -12,6 +14,8 @@ export default function CategoriesPage() {
   useEffect(() => {
     dispatch(load_categories)
   }, []);
+
+  // back_test();
 
   return (
     <div className={s.categories_page}>

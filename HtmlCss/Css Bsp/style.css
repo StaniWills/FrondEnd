@@ -1,0 +1,78 @@
+body {
+  max-width: 350px;
+}
+
+/* h2 {
+  color: green;
+} */
+
+#testID {
+  color: red;
+}
+
+.testClass {
+  color: blue;
+}
+
+div h1 {
+  color: lightblue;
+}
+
+div h1 span {
+  color: lightgreen;
+  font-size: 18px;
+}
+
+.first .second {
+  background-color: yellow;
+}
+
+.first {
+  background-color: red;
+}
+
+.second {
+  background-color: blue;
+  color: white;
+}
+
+.direct-children > span {
+  color: Brown;
+}
+
+.children p:nth-child(2) {
+  background-color: red;
+}
+
+/* .children p:first-child {
+  background-color: rgb(73, 43, 3);
+} */
+/* .children p:last-child {
+  background-color: rgb(73, 43, 3);
+} */
+
+article h3 + p {
+  background-color: rgb(69, 33, 212);
+  color: #fff;
+  padding: 0.5em;
+}
+
+article h1 + p {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em;
+}
+
+
+/* input[type="checkbox"] {
+  box-shadow: 0 0 0 3px green;
+} */
+
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+.end {
+  margin-bottom: 150px;
+}

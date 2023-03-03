@@ -1,7 +1,0 @@
-herstellen userReducer => AddUsersForm
-
-dispatch(addUser({
-      name: name.value,
-      age: age.value,
-      country: country.value
-    });
